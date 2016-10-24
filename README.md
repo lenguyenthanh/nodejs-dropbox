@@ -36,8 +36,7 @@ Time spent: `4 hours`
 
 ## Walkthrough
 
-`<Add your Walkthrough Gif here (by updating the image URL)>`
-![Video Walkthrough](...)
+![Video Walkthrough](https://github.com/lenguyenthanh/nodejs-dropbox/blob/master/Walkthrough.gif)
 
 
 
