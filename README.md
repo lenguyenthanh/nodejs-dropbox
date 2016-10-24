@@ -2,15 +2,16 @@
 
 This is a basic Dropbox clone to sync files across multiple remote folders.
 
-Time spent: `<Number of hours spent>`
+Time spent: `4 hours`
 
 ## Features
 
 ### Required
 
 - [x] Completed Requireds marked with `[x]`
-- [ ] Walkthrough Gif embedded in README
-- [ ] README `Time spent:` includes the number of hours spent on the assignment
+- [x] Walkthrough Gif embedded in README
+- [x] README `Time spent:` includes the number of hours spent on the assignment
+- [x] Implement http Server with GET, HEAD, PUT, POST, DELETE api
 - [ ] Client can make GET requests to get file or directory contents
 - [ ] Client can download a directory as an archive
 - [ ] Client can make HEAD request to get just the GET headers 

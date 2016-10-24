@@ -48,7 +48,7 @@ app.put('*', setFileMeta, setDirDetails, (req, res, next) => {
     if(req.stat) return res.status(405).send('File exists')
 
     await mkdirp.promise(req.dirPath)  
-    
+
     if (!req.isDir) {
       req.pipe(fs.createWriteStream(req.filePath))
     }
@@ -60,7 +60,7 @@ app.post('*', setFileMeta, setDirDetails, (req, res, next) => {
   (async () => {
     if(!req.stat) return res.status(405).send('File does not exist')
     if(req.isDir) return res.status(405).send('Path is a directory')
-    
+
     fs.promise.truncate(req.filePath, 0)
     req.pipe(fs.createWriteStream(req.filePath))
     res.end()
